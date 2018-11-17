@@ -5,9 +5,9 @@ This template uses a custom SSH key instead of the default random or insecure ke
 ### Usage
 1. Generate your SSH key-pair using:
 
-```bash
-ssh-keygen -t rsa -b 4096
-```
+   ```bash
+   ssh-keygen -t rsa -b 4096
+   ```
 2. Export the required environment variables:
 
    ```bash
@@ -38,3 +38,6 @@ ssh-keygen -t rsa -b 4096
    ```bash
    $ vagrant ssh
    ``` 
+
+   ### License
+   MIT
